@@ -1,307 +1,359 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Luisa Bermejo. Nutrición y Salud Torrijos",
+  logo: "/images/logo.png",
+  tagline: "Nutrición con ciencia y cercanía en Torrijos",
+  description: "Luisa Bermejo. Nutrición y Salud Torrijos es tu centro de referencia en Torrijos, Toledo, para transformar tu salud con planes nutricionales personalizados y tratamientos estéticos avanzados. Especialistas en pérdida de peso sostenible sin hambre ni complementos, nutrición clínica y tratamientos corporales con tecnología de alta calidad. Con 4.7 estrellas en Google, nuestros pacientes destacan el trato cercano, profesional y los resultados reales que cambian vidas.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#e58a4c",
+    secondary: "#452917",
+    accent: "#e57c38",
+    neutral: "#fdf6f1"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
-  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  phone: "695 17 34 74",
+  whatsapp: "+34695173474",
+  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros servicios de nutrición.",
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "C. Lope de Vega, 3, 45500 Torrijos, Toledo, Spain",
+    city: "Torrijos",
+    province: "Toledo",
+    postalCode: "45500",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=6252920523966217956&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Luisa%20Bermejo.%20Nutrici%C3%B3n%20y%20Salud%20Torrijos%20%4039.9812%2C-4.27877&z=16&output=embed",
+  coordinates: {
+    lat: 39.9812,
+    lng: -4.27877
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "lunes - viernes",
+      hours: "10:00–13:30, 16:00–20:00"
+    },
+    {
+      days: "sábado - domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
     rating: 4.7,
-    count: 190,
-    url: "#",
+    count: 14,
+    url: "https://maps.google.com/?cid=6252920523966217956&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Luis Ramos Nombela",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "El trato es cercano y muy profesional, los tratamientos son personalizados y efectivos, se nota que trabajan con productos y tecnología de alta calidad. Además, me han enseñado a llevar hábitos saludables que puedo mantener en el tiempo. Cada visita es una motivación extra para seguir cuidándome.\nLo recomiendo 100% a quien quiera mejorar su salud, su imagen y su autoestima.",
+        date: "Hace 6 meses"
       },
       {
-        author: "Javier Padilla",
+        author: "AROA MARTIN ARIAS DE SAAVEDRA",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Estupenda profesional,cercana y amable, llevo más de 20 kg perdidos con ella, estoy encantada, dietas fáciles de llevar si pasar hambre 😋 y solo con las comidas sin otro tipos de complementos!!!",
+        date: "Hace 4 meses"
       },
       {
-        author: "Melanie Ponce",
+        author: "Tere Higuera",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Una gran profesional. Te hace sentir como si estuvieras en casa. Encantada tanto con el tema de la nutrición,como con los tratamientos de estética que me he realizado. Lo recomiendo al 100%",
+        date: "Hace 2 meses"
       },
       {
-        author: "María Teresa Salguero",
+        author: "B HR",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
+        text: "Trato inmejorable. Las instalaciones son muy agradables, me sentí muy relajada. Recomiendo los tratamientos, gran profesional. Asesoramiento personalizado. Sin duda volveré.",
+        date: "Hace 3 meses"
       },
-    ],
+      {
+        author: "Cristina Rodríguez Gutiérrez",
+        rating: 5,
+        text: "Luisa es estupenda, amable, en todo momento pendiente de ti. Cada vez que voy me relajo muchísimo. Me encanta",
+        date: "Hace 2 meses"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "perdida-peso",
+      name: "Pérdida de Peso Sostenible",
+      description: "Programas de adelgazamiento personalizados sin pasar hambre ni recurrir a complementos. Dietas fáciles de seguir, basadas en comida real y adaptadas a tu rutina. Nuestros pacientes han perdido más de 20 kg manteniendo los resultados en el tiempo.",
+      benefits: [
+        "Dietas personalizadas sin hambre ni restricciones extremas",
+        "Resultados reales y sostenibles a largo plazo",
+        "Seguimiento continuo y motivación en cada visita"
+      ],
+      icon: "TrendingDown"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "nutricion-clinica",
+      name: "Nutrición Clínica",
+      description: "Planes nutricionales terapéuticos para patologías como diabetes, colesterol alto, hipertensión y problemas digestivos. Trabajamos con evidencia científica para mejorar tu salud a través de la alimentación, sin renunciar al placer de comer.",
+      benefits: [
+        "Control de patologías mediante alimentación saludable",
+        "Planes adaptados a tus necesidades médicas específicas",
+        "Mejora de analíticas y calidad de vida"
+      ],
+      icon: "Heart"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "coaching-nutricional",
+      name: "Coaching Nutricional",
+      description: "Te enseñamos a crear hábitos saludables que puedas mantener en el tiempo. Más que dietas, un cambio de mentalidad y estilo de vida. Cada sesión es una motivación extra para seguir cuidándote y alcanzar tus objetivos de salud y bienestar.",
+      benefits: [
+        "Cambio de hábitos permanente, no dietas temporales",
+        "Herramientas prácticas para tu día a día",
+        "Motivación constante y apoyo profesional"
+      ],
+      icon: "Target"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      id: "tratamientos-esteticos",
+      name: "Tratamientos Estéticos Corporales",
+      description: "Tratamientos corporales avanzados con tecnología de alta calidad para complementar tu proceso de pérdida de peso. Mejora tu imagen, reafirma tu piel y potencia tus resultados en un ambiente relajado y profesional.",
+      benefits: [
+        "Tecnología de última generación y productos premium",
+        "Tratamientos personalizados según tus objetivos",
+        "Ambiente acogedor que te hace sentir como en casa"
+      ],
+      icon: "Heart"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      id: "nutricion-deportiva",
+      name: "Nutrición Deportiva",
+      description: "Alimentación optimizada para deportistas y personas activas. Mejora tu rendimiento, acelera la recuperación y alcanza tus metas deportivas con planes nutricionales diseñados para tu tipo de entrenamiento y objetivos específicos.",
+      benefits: [
+        "Planes adaptados a tu actividad física y objetivos",
+        "Mejora del rendimiento y recuperación muscular",
+        "Composición corporal óptima para tu deporte"
+      ],
+      icon: "Dumbbell"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      id: "nutricion-infantil",
+      name: "Nutrición Infantil y Adolescentes",
+      description: "Educación nutricional para niños y adolescentes en todas las etapas de crecimiento. Creamos hábitos saludables desde pequeños, abordamos problemas de peso infantil y aseguramos un desarrollo óptimo con alimentación equilibrada y adaptada.",
+      benefits: [
+        "Hábitos saludables desde la infancia",
+        "Planes adaptados a cada etapa de crecimiento",
+        "Educación nutricional para toda la familia"
+      ],
+      icon: "Baby"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "valoracion-nutricional",
+      name: "Valoración Nutricional Completa",
+      description: "Evaluación exhaustiva de tu estado nutricional, composición corporal, hábitos alimentarios y objetivos de salud. Primera consulta donde conocemos tu historia, analizamos tu situación actual y diseñamos la estrategia personalizada para tu éxito.",
+      benefits: [
+        "Análisis completo de composición corporal",
+        "Diagnóstico nutricional profesional y detallado",
+        "Plan de acción personalizado desde el primer día"
+      ],
+      icon: "Apple"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "asesoramiento-personalizado",
+      name: "Asesoramiento Nutricional Continuo",
+      description: "Seguimiento y ajuste constante de tu plan nutricional. Revisiones periódicas donde celebramos tus logros, resolvemos dudas y adaptamos la estrategia según tu evolución. Un acompañamiento profesional que garantiza resultados duraderos.",
+      benefits: [
+        "Revisiones periódicas para optimizar resultados",
+        "Ajustes personalizados según tu progreso",
+        "Apoyo continuo para mantener la motivación"
+      ],
+      icon: "Target"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Contacta y Reserva",
+      description: "Llama al 695 17 34 74 o envía un WhatsApp para reservar tu primera consulta. Te atenderemos de forma cercana y resolveremos todas tus dudas sobre nuestros servicios y disponibilidad."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Valoración Completa",
+      description: "En tu primera visita realizamos una evaluación nutricional exhaustiva: analizamos tu composición corporal, historial médico, hábitos alimentarios y objetivos. Conocemos tu situación real para diseñar la mejor estrategia."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Tu Plan Personalizado",
+      description: "Diseñamos tu plan nutricional adaptado a tu vida: dietas fáciles de seguir con comida real, sin pasar hambre ni complementos innecesarios. Te enseñamos hábitos saludables que puedes mantener en el tiempo y complementamos con tratamientos estéticos si lo necesitas."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Seguimiento y Éxito",
+      description: "Revisiones periódicas donde medimos tu progreso, ajustamos el plan según tu evolución y celebramos cada logro. Cada visita es una motivación extra para seguir adelante. Te acompañamos hasta alcanzar tus objetivos y mantenerlos."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "Valoración Excelente: 4.7 Estrellas",
+      description: "Nuestros 14 pacientes en Google nos avalan con una valoración de 4.7 estrellas. Destacan nuestro trato cercano y profesional, resultados reales como pérdidas de más de 20 kg, y la motivación constante que reciben en cada visita. Tu éxito es nuestra mejor carta de presentación.",
+      icon: "Award"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Resultados Reales Sin Dietas Milagro",
+      description: "Dietas fáciles de llevar, sin pasar hambre y solo con las comidas, sin complementos innecesarios. Te enseñamos hábitos saludables que puedes mantener en el tiempo. Nuestros pacientes pierden peso de forma sostenible y mejoran su salud, autoestima e imagen con cambios permanentes.",
+      icon: "Target"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Tecnología y Tratamientos de Alta Calidad",
+      description: "Trabajamos con productos y tecnología de última generación para ofrecer tratamientos estéticos corporales efectivos y personalizados. Nuestras instalaciones son agradables y acogedoras, creando un ambiente donde te sentirás relajado y como en casa desde el primer momento.",
+      icon: "Sparkles"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Trato Cercano y Profesional",
+      description: "En Luisa Bermejo. Nutrición y Salud Torrijos te hacemos sentir como en familia. Estamos pendientes de ti en todo momento, te escuchamos, te motivamos y celebramos cada logro contigo. Combinamos cercanía humana con profesionalidad y rigor científico para garantizar tu bienestar.",
+      icon: "Users"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Luisa Bermejo",
+      role: "Nutricionista y Especialista en Estética",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Dietistas-nutricionistas comprometidos con tu salud. En Luisa Bermejo. Nutrición y Salud Torrijos diseñamos planes nutricionales personalizados para alcanzar tus objetivos."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/gallery/1.webp",
+      alt: "Luisa Bermejo. Nutrición y Salud Torrijos - Imagen 1"
+    },
+    {
+      src: "/images/gallery/2.webp",
+      alt: "Luisa Bermejo. Nutrición y Salud Torrijos - Imagen 2"
+    },
+    {
+      src: "/images/gallery/3.webp",
+      alt: "Luisa Bermejo. Nutrición y Salud Torrijos - Imagen 3"
+    },
+    {
+      src: "/images/gallery/4.webp",
+      alt: "Luisa Bermejo. Nutrición y Salud Torrijos - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "Luisa Bermejo. Nutrición y Salud Torrijos - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "Luisa Bermejo. Nutrición y Salud Torrijos - Imagen 6"
+    },
+    {
+      src: "/images/gallery/7.webp",
+      alt: "Luisa Bermejo. Nutrición y Salud Torrijos - Imagen 7"
+    },
+    {
+      src: "/images/gallery/8.webp",
+      alt: "Luisa Bermejo. Nutrición y Salud Torrijos - Imagen 8"
+    },
+    {
+      src: "/images/gallery/9.webp",
+      alt: "Luisa Bermejo. Nutrición y Salud Torrijos - Imagen 9"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Tendré que pasar hambre con las dietas?",
+      answer: "En absoluto. En Luisa Bermejo. Nutrición y Salud Torrijos diseñamos dietas fáciles de llevar, sin pasar hambre y basadas en comida real. Nuestros pacientes destacan que pierden peso comiendo de forma saludable y satisfactoria, sin restricciones extremas. El objetivo es que disfrutes comiendo mientras alcanzas tus metas."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Necesitaré tomar complementos o productos especiales?",
+      answer: "No. Trabajamos exclusivamente con las comidas, sin necesidad de complementos, batidos o productos especiales. Creemos en la alimentación real y equilibrada como base de la salud. Solo en casos clínicos muy específicos y bajo criterio profesional podríamos recomendar algún suplemento concreto."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Cuánto peso puedo perder de forma saludable?",
+      answer: "La pérdida de peso saludable y sostenible es de 0,5 a 1 kg por semana, aunque depende de cada persona. En Luisa Bermejo. Nutrición y Salud Torrijos tenemos pacientes que han perdido más de 20 kg de forma progresiva y han mantenido los resultados en el tiempo. Lo importante no es la velocidad, sino crear hábitos que perduren."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Qué incluye la primera consulta?",
+      answer: "La primera consulta incluye una valoración nutricional completa: análisis de composición corporal, evaluación de hábitos alimentarios, historial médico y definición de objetivos. Conocemos tu situación real para diseñar un plan personalizado desde el primer día. Es el punto de partida de tu transformación."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Qué tratamientos estéticos ofrecéis?",
+      answer: "Ofrecemos tratamientos corporales con tecnología de alta calidad para complementar tu proceso de pérdida de peso: reafirmación, reducción de medidas y mejora de la silueta. Nuestras instalaciones son muy agradables y el ambiente te hará sentir relajado y como en casa. Cada tratamiento está personalizado según tus necesidades."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Con qué frecuencia son las revisiones?",
+      answer: "Las revisiones son periódicas y se adaptan a tu evolución y necesidades. Generalmente cada 2-4 semanas al inicio, espaciándose según tu progreso. En cada visita medimos resultados, ajustamos el plan y te motivamos para seguir adelante. El seguimiento continuo es clave para el éxito a largo plazo."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Atendéis problemas de salud como diabetes o colesterol?",
+      answer: "Sí, ofrecemos nutrición clínica para patologías como diabetes, colesterol alto, hipertensión y problemas digestivos. Diseñamos planes nutricionales terapéuticos basados en evidencia científica que te ayudan a mejorar tus analíticas y calidad de vida a través de la alimentación saludable."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Cómo puedo reservar mi cita?",
+      answer: "Puedes llamar directamente al 695 17 34 74 o enviarnos un WhatsApp. Te atenderemos de forma cercana y profesional, resolveremos tus dudas y encontraremos el mejor horario para tu primera consulta en nuestro centro de Torrijos, Toledo."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Luisa Bermejo. Nutrición y Salud Torrijos",
+    defaultTitle: "Nutricionista en Torrijos | Luisa Bermejo Nutrición",
+    defaultDescription: "Nutricionista en Torrijos, Toledo. Pérdida de peso sostenible sin hambre, nutrición clínica y tratamientos estéticos. 4.7★ en Google. Llama al 695 17 34 74",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "nutricionista Torrijos",
+      "nutrición Torrijos Toledo",
+      "dietista Torrijos",
+      "perder peso Torrijos",
+      "Luisa Bermejo nutricionista",
+      "adelgazar Torrijos",
+      "nutrición clínica Torrijos",
+      "tratamientos estéticos Torrijos",
+      "coaching nutricional Torrijos",
+      "dieta personalizada Torrijos",
+      "nutricionista deportivo Torrijos",
+      "consulta nutrición Torrijos"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Luisa Bermejo. Nutrición y Salud Torrijos",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "C. Lope de Vega, 3, 45500 Torrijos, Toledo, Spain, Torrijos, Toledo"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
-  ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
-  statsLabel: "Clientas",
-  schemaType: "BeautySalon",
+  heroHeadline: [
+    "Tu Centro de",
+    "Nutrición",
+    "en Torrijos"
+  ],
+  heroDescription: "En Luisa Bermejo. Nutrición y Salud Torrijos combinamos nutrición basada en evidencia con tratamientos estéticos de última generación. Te ayudamos a perder peso de forma saludable, mejorar tu salud y recuperar tu autoestima con planes personalizados, sin dietas milagro ni pasar hambre. Cada visita es un paso más hacia la mejor versión de ti mismo.",
+  specialty: "Pérdida de Peso Sostenible",
+  ctaLabel: "Tu Plan Nutricional",
+  ctaHeadline: "¿Preparado para cambiar tus hábitos y transformar tu salud?",
+  ctaDescription: "Reserva tu primera consulta y descubre cómo podemos ayudarte a alcanzar tus objetivos con un plan personalizado, basado en ciencia y adaptado a tu estilo de vida. Sin dietas imposibles, solo resultados reales.",
+  statsLabel: "Pacientes",
+  schemaType: "DieteticsAndNutrition",
   sectionCopy: {
     servicesLabel: "Nuestros Servicios",
     servicesTitle: "Tratamientos especializados",
-    servicesDescription: "Técnicas avanzadas de estética y belleza para realzar tu imagen y cuidar de ti.",
+    servicesDescription: "Soluciones profesionales adaptadas a tus necesidades de salud.",
     processLabel: "Cómo Trabajamos",
-    processTitle: "Tu camino hacia la belleza en 4 pasos",
+    processTitle: "Tu camino hacia la recuperación en 4 pasos",
     processDescription: "Un proceso simple y transparente diseñado para tu comodidad.",
     whyUsLabel: "Por Qué Elegirnos",
-    whyUsTitle: "Tu belleza, nuestra pasión",
-    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para realzar tu belleza natural.",
+    whyUsTitle: "Tu salud, nuestra prioridad",
+    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para cuidar de tu salud.",
     reviewsLabel: "Opiniones",
-    reviewsTitle: "Lo que dicen nuestras clientas",
+    reviewsTitle: "Lo que dicen nuestros pacientes",
     galleryLabel: "Instalaciones",
-    galleryTitle: "Conoce nuestro centro",
-    galleryDescription: "Un espacio diseñado para tu bienestar y relajación",
+    galleryTitle: "Conoce nuestra clínica",
+    galleryDescription: "Un espacio diseñado para tu bienestar y recuperación",
     faqLabel: "FAQ",
     faqTitle: "Preguntas frecuentes",
-    faqDescription: "Resolvemos las dudas más comunes de nuestras clientas.",
+    faqDescription: "Resolvemos las dudas más comunes de nuestros pacientes.",
     locationLabel: "Ubicación",
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
-    teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamTitle: "Profesionales especializados",
+    teamDescription: "Experiencia y dedicación al servicio de tu salud"
+  }
 }
 
 export type Clinic = typeof clinic
